@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Exam Title"
+              android:textStyle="bold"
+              android:id="@+id/titleText"
+              android:textSize="18sp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Automata"
+              android:id="@+id/examTitle"
+              android:layout_marginTop="2dp"
+              android:layout_toRightOf="@+id/titleText"
+              android:layout_toEndOf="@+id/titleText"
+              android:layout_marginRight="10dp"
+              android:layout_marginStart="10dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Timer Value"
+              android:textStyle="bold"
+              android:layout_below="@+id/titleText"
+              android:layout_marginTop="10dp"
+              android:id="@+id/timeText"
+              android:textSize="18sp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="10 hrs 15 mins"
+              android:id="@+id/time"
+              android:layout_alignTop="@+id/examTitle"
+              android:layout_marginTop="33dp"
+              android:layout_toRightOf="@+id/timeText"
+              android:layout_toEndOf="@+id/timeText"
+              android:layout_marginRight="10dp"
+              android:layout_marginStart="10dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Total Questions"
+              android:textStyle="bold"
+              android:layout_below="@+id/titleText"
+              android:layout_marginTop="40dp"
+              android:id="@+id/questionText"
+              android:textSize="18sp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="13"
+              android:id="@+id/questionValue"
+              android:layout_marginTop="12dp"
+              android:layout_below="@+id/time"
+              android:layout_toRightOf="@+id/questionText"
+              android:layout_toEndOf="@+id/questionText"
+              android:layout_marginRight="10dp"
+              android:layout_marginStart="10dp"/>
+
+</RelativeLayout>
